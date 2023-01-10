@@ -24,7 +24,12 @@ public class MenuController extends BattleshipMain {
         stage.show();
     }
     public void rulesButtonPressed(ActionEvent event) throws IOException{
-        //
+
+        fxmlLoader = new FXMLLoader(BattleshipMain.class.getResource("menuRules-view.fxml"));
+        scene2 = new Scene(fxmlLoader.load(), 800, 500);
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        stage.setScene(scene2);
+        stage.show();
 
     }
 

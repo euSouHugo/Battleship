@@ -11,13 +11,13 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.battleship.MenuController">
    <children>
-      <Label layoutX="349.0" layoutY="40.0" text="Battleship">
+      <Label layoutX="338.0" layoutY="28.0" text="Battleship">
          <font>
-            <Font size="24.0" />
+            <Font name="Uroob Regular" size="39.0" />
          </font></Label>
-      <SplitPane dividerPositions="0.29797979797979796" layoutX="1.0" layoutY="101.0" prefHeight="399.0" prefWidth="800.0">
-        <items>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+      <SplitPane dividerPositions="0.29797979797979796" layoutY="101.0" prefHeight="399.0" prefWidth="800.0">
+         <items>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
                <children>
                   <VBox alignment="TOP_CENTER" prefHeight="397.0" prefWidth="235.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <children>
@@ -26,29 +26,41 @@
                            <VBox.margin>
                               <Insets />
                            </VBox.margin>
+                           <font>
+                              <Font name="Uroob Regular" size="22.0" />
+                           </font>
                         </Button>
-                        <Button mnemonicParsing="false" text="RULES">
+                        <Button mnemonicParsing="false" onAction="#rulesButtonPressed" text="RULES">
                            <VBox.margin>
                               <Insets top="50.0" />
                            </VBox.margin>
+                           <font>
+                              <Font name="Uroob Regular" size="22.0" />
+                           </font>
                         </Button>
                         <Button mnemonicParsing="false" text="SETTINGS">
                            <VBox.margin>
                               <Insets top="50.0" />
                            </VBox.margin>
+                           <font>
+                              <Font name="Uroob Regular" size="22.0" />
+                           </font>
                         </Button>
                         <Button layoutX="10.0" layoutY="183.0" mnemonicParsing="false" text="EXIT">
                            <VBox.margin>
                               <Insets top="50.0" />
                            </VBox.margin>
+                           <font>
+                              <Font name="Uroob Regular" size="22.0" />
+                           </font>
                         </Button>
                         <Pane layoutX="10.0" layoutY="10.0" prefHeight="80.0" prefWidth="235.0" />
                      </children>
                   </VBox>
                </children>
             </AnchorPane>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="370.0" prefWidth="243.0" />
-        </items>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="370.0" prefWidth="243.0" />
+         </items>
       </SplitPane>
    </children>
 </AnchorPane>
