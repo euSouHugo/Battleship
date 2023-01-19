@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.battleship.MenuController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.battleship.MenuController">
     <children>
         <Label layoutX="338.0" layoutY="28.0" text="Battleship">
             <font>
@@ -22,7 +22,7 @@
                         <VBox alignment="TOP_CENTER" prefHeight="397.0" prefWidth="235.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                             <children>
                                 <Pane prefHeight="80.0" prefWidth="235.0" />
-                                <Button mnemonicParsing="false" onAction="#changeScene" prefHeight="24.0" text="START GAME">
+                                <Button mnemonicParsing="false" onAction="#changeScene" onMouseEntered="#onMouseEnteredStartGame" prefHeight="24.0" text="PLAY">
                                     <VBox.margin>
                                         <Insets />
                                     </VBox.margin>
