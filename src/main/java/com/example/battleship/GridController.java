@@ -4,7 +4,7 @@ package com.example.battleship;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import javafx.scene.control.TextField;
+import javafx.scene.layout.GridPane;
 import javafx.scene.text.Text;
 
 public class GridController {
@@ -13,11 +13,17 @@ public class GridController {
     Text gameTracker;
     @FXML
     Button startGameButton;
+    @FXML
+    GridPane gameGrid;
 
 
     public void updateTracker(){
         gameTracker.setText("Hello!");
     }
+
+    // public void setGameGrid(){
+        //gameGrid.add(Button);
+    //}
 
 
 }
